@@ -1,0 +1,23 @@
+<application>
+  <component name="UsagesStatistic" time="1425258900312" allowed="true" show-notification="false" period="weekly">
+    <group id="JavaScript versions" priority="0.0" data="DEFAULT=4" />
+    <group id="Look and Feel" priority="0.0" data="Windows 7 - windows - Alloy. IDEA Theme=1" />
+    <group id="UI Features" priority="0.0" data="Status bar visible=1,Nav Bar visible=1,Line Numbers=1,Tabs Top=1,Recent Files (30  50]=1,Tool Window buttons hidden=0,Toolbar visible=1,Tool Window buttons visible=1" />
+    <group id="features counts" priority="0.0" data="ide.settings.Appearance=1,ide.settings.Keymap=1,execute.PythonConfigurationType.Run=342,NewDirectoryProjectAction.Empty project=1,execute.PythonConfigurationType.Debug=5,ideaapp.started=18,ide.settings.File_and_Code_Templates=1,ide.settings.External_Tools=8,execute.tests.Run=2,ide.settings.Project_Interpreter=1,CreateFile.CreateFileAction=2,NewDirectoryProjectAction.Pure Python=1" />
+    <group id="file-type" priority="0.0" data="JavaScript=1,HTML=1,PLAIN_TEXT=3,Python=3,XML=4,UNKNOWN=4,Images=2,CSS=1,SQL=1,Perl=1,DATASOURCE_STORAGE=1,SourceMap=1,Qt UI file=1" />
+    <group id="frameworks" priority="0.0" data="django=2" />
+    <group id="javaScript Scope Usages" priority="0.0" data="Project=8" />
+    <group id="jdbc-datasource" priority="0.0" data="MySQL/5.6.10=1" />
+    <group id="jdbc-driver" priority="0.0" data="com.mysql.jdbc.Driver=1" />
+    <group id="module type" priority="0.0" data="PYTHON_MODULE=4" />
+    <group id="non-bundled-plugins" priority="0.0" data="com.intellij=1" />
+    <group id="productivity" priority="0.0" data="navigation.recent.files=3,navigation.goto.declaration=70,editing.completion.finishByDotEtc=2,editing.select.word=266,editing.completion.replace=4,editing.completion.basic=990,ui.tree.speedsearch=1,refactoring.rename=2,editing.completion.camelHumps=1" />
+    <group id="py-interpreter" priority="0.0" data="Python 2.7.6=2,Python 2.7.9=1" />
+    <group id="run-configuration-type" priority="0.0" data="Python.DjangoServer=2,PythonConfigurationType=1" />
+    <group id="run-configuration-type-temp" priority="0.0" data="PythonConfigurationType=2" />
+    <group id="user.jdk" priority="0.0" data="Oracle Corporation 1.8=1" />
+    <group id="user.os.name" priority="0.0" data="Windows=1" />
+    <group id="user.os.version" priority="0.0" data="Windows 7 6.1=1" />
+    <group id="vcs" priority="0.0" data="Git=1" />
+  </component>
+</application>

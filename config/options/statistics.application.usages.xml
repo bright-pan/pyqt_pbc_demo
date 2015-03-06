@@ -1,0 +1,72 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="run-configuration-type-temp">
+      <project id="untitled" values="PythonConfigurationType" />
+      <project id="hchq" values="PythonConfigurationType" />
+    </group>
+    <group name="jdbc-datasource">
+      <project id="hchq" values="MySQL/5.6.10" />
+    </group>
+    <group name="vcs">
+      <project id="untitled" values="Git" />
+      <project id="hchq" values="Git" />
+    </group>
+    <group name="frameworks">
+      <project id="hchqx" values="django" />
+      <project id="hchq" values="django" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="untitled" values="DEFAULT" />
+      <project id="hchqx" values="DEFAULT" />
+      <project id="untitled1" values="DEFAULT" />
+      <project id="hchq" values="DEFAULT" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="untitled" values="PythonConfigurationType" />
+      <project id="hchqx" values="Python.DjangoServer" />
+      <project id="hchq" values="Python.DjangoServer" />
+    </group>
+    <group name="jdbc-driver">
+      <project id="hchq" values="com.mysql.jdbc.Driver" />
+    </group>
+    <group name="py-interpreter">
+      <project id="untitled" values="Python 2.7.9" />
+      <project id="untitled1" values="Python 2.7.6" />
+      <project id="hchq" values="Python 2.7.6" />
+    </group>
+    <group name="file-type">
+      <project id="untitled" values="Images,Qt UI file,XML,PLAIN_TEXT,Python,UNKNOWN" />
+      <project id="hchqx" values="XML,Python,UNKNOWN" />
+      <project id="untitled1" values="UNKNOWN,XML,PLAIN_TEXT" />
+      <project id="hchq" values="PLAIN_TEXT,DATASOURCE_STORAGE,SQL,Images,CSS,UNKNOWN,JavaScript,HTML,SourceMap,Python,Perl,XML" />
+    </group>
+    <group name="module type">
+      <project id="untitled" values="PYTHON_MODULE" />
+      <project id="hchqx" values="PYTHON_MODULE" />
+      <project id="untitled1" values="PYTHON_MODULE" />
+      <project id="hchq" values="PYTHON_MODULE" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="untitled" values="Project,Project" />
+      <project id="hchqx" values="Project,Project" />
+      <project id="untitled1" values="Project,Project" />
+      <project id="hchq" values="Project,Project" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="CreateFile.CreateFileAction" count="3" />
+      <entry feature="NewDirectoryProjectAction.Empty project" count="1" />
+      <entry feature="NewDirectoryProjectAction.Pure Python" count="1" />
+      <entry feature="execute.PythonConfigurationType.Debug" count="6" />
+      <entry feature="execute.PythonConfigurationType.Run" count="489" />
+      <entry feature="execute.tests.Run" count="2" />
+      <entry feature="ide.settings.Appearance" count="1" />
+      <entry feature="ide.settings.External_Tools" count="8" />
+      <entry feature="ide.settings.File_and_Code_Templates" count="1" />
+      <entry feature="ide.settings.Keymap" count="1" />
+      <entry feature="ide.settings.Project_Interpreter" count="1" />
+      <entry feature="ideaapp.started" count="22" />
+    </counts>
+  </component>
+</application>

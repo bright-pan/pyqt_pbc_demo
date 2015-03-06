@@ -1,0 +1,21 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>button == QMessageBox.Ok</find>
+      <find>HttpResponse(mimetype='application/pdf')</find>
+      <find>application/pdf</find>
+      <find>cache.get</find>
+      <find>response = HttpResponse(mimetype='application/octet-stream')</find>
+      <find>generate_by</find>
+      <find>save</find>
+      <find> MSG_REQ_ACCOUNT_MAP_CHECK</find>
+      <find>e</find>
+      <find>AccountToPhoneRequest</find>
+      <find>KeyAddRequest</find>
+      <find>MSG_REQ_KEY_ADD</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>application/octet-stream</replace>
+    </replaceStrings>
+  </component>
+</application>

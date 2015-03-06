@@ -1,0 +1,32 @@
+<application>
+  <component name="DimensionService">
+    <location key="#Notifications.0.0.1600.900" x="554" y="163" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1600.900" x="254" y="83" />
+    <location key="#server.0.0.1600.900" x="549" y="114" />
+    <location key="ProcessPopupWindow.0.0.1600.900" x="806" y="699" />
+    <location key="FileChooserDialogImpl.0.0.1600.900" x="579" y="125" />
+    <location key="OptionsEditor.0.0.1600.900" x="180" y="0" />
+    <location key="WELCOME_SCREEN.0.0.1600.900" x="799" y="288" />
+    <location key="#Python_Interpreters.0.0.1600.900" x="469" y="0" />
+    <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.1600.900" x="630" y="37" />
+    <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1600.900" x="520" y="269" />
+    <location key="#com.intellij.ide.macro.MacrosDialog.0.0.1600.900" x="568" y="131" />
+    <location key="#com.intellij.tools.ToolEditorDialog.0.0.1600.900" x="486" y="200" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.1600.900" x="517" y="231" />
+    <location key="#Scopes.0.0.1600.900" x="580" y="283" />
+    <location key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.1600.900" x="530" y="176" />
+    <location key="Github.CreateGistDialog.0.0.1600.900" x="638" y="334" />
+    <location key="CommitChangelistDialog2.0.0.1600.900" x="458" y="0" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.1600.900" x="530" y="319" />
+    <size key="GridCell.Tab.0.right.0.0.1600.900" width="799" height="233" />
+    <size key="GridCell.Tab.0.center.0.0.1600.900" width="799" height="233" />
+    <size key="ProcessPopupWindow.0.0.1600.900" width="794" height="111" />
+    <size key="GridCell.Tab.0.left.0.0.1600.900" width="799" height="233" />
+    <size key="GridCell.Tab.1.right.0.0.1600.900" width="799" height="272" />
+    <size key="GridCell.Tab.1.bottom.0.0.1600.900" width="799" height="272" />
+    <size key="GridCell.Tab.1.left.0.0.1600.900" width="799" height="272" />
+    <size key="GridCell.Tab.1.center.0.0.1600.900" width="799" height="272" />
+    <size key="GridCell.Tab.0.bottom.0.0.1600.900" width="799" height="233" />
+    <size key="CommitChangelistDialog2.0.0.1600.900" width="684" height="610" />
+  </component>
+</application>

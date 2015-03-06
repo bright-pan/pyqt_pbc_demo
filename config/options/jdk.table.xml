@@ -1,0 +1,74 @@
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="Python 2.7.6 (C:/Python27/python.exe)" />
+      <type value="Python SDK" />
+      <version value="Python 2.7.6" />
+      <homePath value="C:/Python27/python.exe" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="file://C:/Python27/Lib/site-packages/django_cache_machine-0.8-py2.7.egg" />
+            <root type="simple" url="file://C:/Python27/Lib/site-packages/Geraldo-0.4.17-py2.7.egg" />
+            <root type="simple" url="jar://C:/Python27/Lib/site-packages/python_memcached-1.53-py2.7.egg!/" />
+            <root type="simple" url="jar://C:/Python27/Lib/site-packages/Pillow-2.2.2-py2.7-win32.egg!/" />
+            <root type="simple" url="jar://C:/Python27/Lib/site-packages/pygooglechart-0.4.0-py2.7.egg!/" />
+            <root type="simple" url="file://C:/Python27/Lib/site-packages/pygal-1.2.1-py2.7.egg" />
+            <root type="simple" url="file://C:/Python27/Lib/site-packages/Sphinx-1.2-py2.7.egg" />
+            <root type="simple" url="file://C:/Python27/Lib/site-packages/jinja2-2.7.1-py2.7.egg" />
+            <root type="simple" url="file://C:/Python27/Lib/site-packages/docutils-0.11-py2.7.egg" />
+            <root type="simple" url="file://C:/Python27/Lib/site-packages/Pygments-1.6-py2.7.egg" />
+            <root type="simple" url="file://C:/Python27/Lib/site-packages/markupsafe-0.18-py2.7-win32.egg" />
+            <root type="simple" url="file://C:/Python27/Lib/site-packages/virtualenv-1.11-py2.7.egg" />
+            <root type="simple" url="jar://C:/Python27/Lib/site-packages/meld3-0.6.10-py2.7.egg!/" />
+            <root type="simple" url="jar://C:/Python27/Lib/site-packages/gevent_zeromq-0.2.5-py2.7.egg!/" />
+            <root type="simple" url="file://C:/Python27/Lib/site-packages/pyzmq-2.2.0-py2.7-win32.egg" />
+            <root type="simple" url="file://C:/Python27/Lib/site-packages/scons-2.3.0-py2.7.egg" />
+            <root type="simple" url="file://C:/Python27/DLLs" />
+            <root type="simple" url="file://C:/Python27/Lib" />
+            <root type="simple" url="file://C:/Python27/Lib/lib-tk" />
+            <root type="simple" url="file://C:/Python27" />
+            <root type="simple" url="file://C:/Python27/Lib/site-packages" />
+            <root type="simple" url="file://C:/Python27/Lib/site-packages/win32" />
+            <root type="simple" url="file://C:/Python27/Lib/site-packages/win32/lib" />
+            <root type="simple" url="file://C:/Python27/Lib/site-packages/pythonwin" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" />
+            <root type="simple" url="file://$USER_HOME$/.PyCharm30/system/python_stubs/-762174762" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 2.7.9 (D:\WinPython-64bit-2.7.9.1\python-2.7.9.amd64\python.exe)" />
+      <type value="Python SDK" />
+      <version value="Python 2.7.9" />
+      <homePath value="D:\WinPython-64bit-2.7.9.1\python-2.7.9.amd64\python.exe" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="jar://D:/WinPython-64bit-2.7.9.1/python-2.7.9.amd64/Lib/site-packages/protobuf-2.5.0-py2.7.egg!/" />
+            <root type="simple" url="file://D:/WinPython-64bit-2.7.9.1/python-2.7.9.amd64/DLLs" />
+            <root type="simple" url="file://D:/WinPython-64bit-2.7.9.1/python-2.7.9.amd64/Lib" />
+            <root type="simple" url="file://D:/WinPython-64bit-2.7.9.1/python-2.7.9.amd64/Lib/lib-tk" />
+            <root type="simple" url="file://D:/WinPython-64bit-2.7.9.1/python-2.7.9.amd64" />
+            <root type="simple" url="file://D:/WinPython-64bit-2.7.9.1/python-2.7.9.amd64/Lib/site-packages" />
+            <root type="simple" url="file://D:/WinPython-64bit-2.7.9.1/python-2.7.9.amd64/Lib/site-packages/FontTools" />
+            <root type="simple" url="file://D:/WinPython-64bit-2.7.9.1/python-2.7.9.amd64/Lib/site-packages/win32" />
+            <root type="simple" url="file://D:/WinPython-64bit-2.7.9.1/python-2.7.9.amd64/Lib/site-packages/win32/lib" />
+            <root type="simple" url="file://D:/WinPython-64bit-2.7.9.1/python-2.7.9.amd64/Lib/site-packages/pythonwin" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" />
+            <root type="simple" url="file://$USER_HOME$/.PyCharm40/system/python_stubs/-417152064" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+  </component>
+</application>
