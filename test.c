@@ -6,7 +6,7 @@
 int main()
 {
     /* This is the buffer where we will store our message. */
-    uint8_t buffer[128];
+    uint8_t buffer[1000];
     size_t message_length;
     bool status;
 
