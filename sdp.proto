@@ -327,6 +327,8 @@ message PasswordRequest
 {
     optional bytes k0 = 1;//K0密码
 }
+
+
 message PasswordResponse
 {
 }
@@ -366,6 +368,7 @@ message AccountMapSyncRequest
 	optional bytes map = 2;//映射数据
 
 }
+
 message AccountMapSyncResponse
 {
     optional ACCOUNT_MAP_STATUS_TYPE status = 1;//操作状态
@@ -483,90 +486,90 @@ message LogCheckResponse
 }
 enum MSG
 {
-    MSG_UNKOWN = 0;
-    MSG_REQ_LOGIN  = 10001;
-    MSG_REP_LOGIN  = 10002;
-    MSG_REQ_LOGOUT  = 10003;
-    MSG_REP_LOGOUT  = 10004;
-    MSG_REQ_KEEP_ALIVE = 10005;
-    MSG_REP_KEEP_ALIVE = 10006;
-    MSG_REQ_WORK_ALARM  = 10007;
-    MSG_REP_WORK_ALARM  = 10008;
-    MSG_REQ_FAULT_ALARM  = 10009;
-    MSG_REP_FAULT_ALARM  = 10010;
-    MSG_REQ_BATTERY  = 10011;
-    MSG_REP_BATTERY = 10012;
-    MSG_REQ_OPEN  = 10013;
-    MSG_REP_OPEN  = 10014;
-    MSG_REQ_PHONE_ADD  = 10015;
-    MSG_REP_PHONE_ADD = 10016;
-    MSG_REQ_PHONE_MODIFY  = 10017;
-    MSG_REP_PHONE_MODIFY = 10018;
-    MSG_REQ_PHONE_DELETE = 10019;
-    MSG_REP_PHONE_DELETE = 10020;
-    MSG_REQ_PARAMETERS = 10021;
-    MSG_REP_PARAMETERS = 10022;
-    MSG_REQ_TIME = 10025;
-    MSG_REP_TIME = 10026;
-    MSG_REQ_UPGRADE = 10027;
-    MSG_REP_UPGRADE = 10028;
-    MSG_REQ_MOTOR = 10029;
-    MSG_REP_MOTOR = 10030;
-    MSG_REQ_ACCOUNT_ADD = 10031;
-    MSG_REP_ACCOUNT_ADD = 10032;
-    MSG_REQ_ACCOUNT_MODIFY = 10033;
-    MSG_REP_ACCOUNT_MODIFY = 10034;
-    MSG_REQ_ACCOUNT_DELETE = 10035;
-    MSG_REP_ACCOUNT_DELETE = 10036;
-    MSG_REQ_FILE_INFO = 10037;
-    MSG_REP_FILE_INFO = 10038;
-    MSG_REQ_FILE_DATA = 10039;
-    MSG_REP_FILE_DATA = 10040;
-    MSG_REQ_PASSWORD = 10041;
-    MSG_REP_PASSWORD = 10042;
-    MSG_REQ_LOG_MAP_CHECK = 10043;
-    MSG_REP_LOG_MAP_CHECK = 10044;
-    MSG_REQ_LOG_MAP_SYNC = 10045;
-    MSG_REP_LOG_MAP_SYNC = 10046;
-    MSG_REQ_LOG_CHECK = 10047;
-    MSG_REP_LOG_CHECK = 10048;
+    UNKOWN = 0;
+    REQ_LOGIN  = 10001;
+    REP_LOGIN  = 10002;
+    REQ_LOGOUT  = 10003;
+    REP_LOGOUT  = 10004;
+    REQ_KEEP_ALIVE = 10005;
+    REP_KEEP_ALIVE = 10006;
+    REQ_WORK_ALARM  = 10007;
+    REP_WORK_ALARM  = 10008;
+    REQ_FAULT_ALARM  = 10009;
+    REP_FAULT_ALARM  = 10010;
+    REQ_BATTERY  = 10011;
+    REP_BATTERY = 10012;
+    REQ_OPEN  = 10013;
+    REP_OPEN  = 10014;
+    REQ_PHONE_ADD  = 10015;
+    REP_PHONE_ADD = 10016;
+    REQ_PHONE_MODIFY  = 10017;
+    REP_PHONE_MODIFY = 10018;
+    REQ_PHONE_DELETE = 10019;
+    REP_PHONE_DELETE = 10020;
+    REQ_PARAMETERS = 10021;
+    REP_PARAMETERS = 10022;
+    REQ_TIME = 10025;
+    REP_TIME = 10026;
+    REQ_UPGRADE = 10027;
+    REP_UPGRADE = 10028;
+    REQ_MOTOR = 10029;
+    REP_MOTOR = 10030;
+    REQ_ACCOUNT_ADD = 10031;
+    REP_ACCOUNT_ADD = 10032;
+    REQ_ACCOUNT_MODIFY = 10033;
+    REP_ACCOUNT_MODIFY = 10034;
+    REQ_ACCOUNT_DELETE = 10035;
+    REP_ACCOUNT_DELETE = 10036;
+    REQ_FILE_INFO = 10037;
+    REP_FILE_INFO = 10038;
+    REQ_FILE_DATA = 10039;
+    REP_FILE_DATA = 10040;
+    REQ_PASSWORD = 10041;
+    REP_PASSWORD = 10042;
+    REQ_LOG_MAP_CHECK = 10043;
+    REP_LOG_MAP_CHECK = 10044;
+    REQ_LOG_MAP_SYNC = 10045;
+    REP_LOG_MAP_SYNC = 10046;
+    REQ_LOG_CHECK = 10047;
+    REP_LOG_CHECK = 10048;
 
-    MSG_REQ_KEY_MAP_CHECK = 10049;
-    MSG_REP_KEY_MAP_CHECK = 10050;
-    MSG_REQ_KEY_MAP_SYNC = 10051;
-    MSG_REP_KEY_MAP_SYNC = 10052;
-    MSG_REQ_KEY_CHECK = 10053;
-    MSG_REP_KEY_CHECK = 10054;
+    REQ_KEY_MAP_CHECK = 10049;
+    REP_KEY_MAP_CHECK = 10050;
+    REQ_KEY_MAP_SYNC = 10051;
+    REP_KEY_MAP_SYNC = 10052;
+    REQ_KEY_CHECK = 10053;
+    REP_KEY_CHECK = 10054;
 
-    MSG_REQ_PHONE_MAP_CHECK = 10055;
-    MSG_REP_PHONE_MAP_CHECK = 10056;
-    MSG_REQ_PHONE_MAP_SYNC = 10057;
-    MSG_REP_PHONE_MAP_SYNC = 10058;
-    MSG_REQ_PHONE_CHECK = 10059;
-    MSG_REP_PHONE_CHECK = 10060;
-    MSG_REQ_SYNC = 10061;
-    MSG_REP_SYNC = 10062;
-
-
-    MSG_REQ_ACCOUNT_MAP_CHECK = 10063;
-    MSG_REP_ACCOUNT_MAP_CHECK = 10064;
-    MSG_REQ_ACCOUNT_MAP_SYNC = 10065;
-    MSG_REP_ACCOUNT_MAP_SYNC = 10066;
-    MSG_REQ_ACCOUNT_CHECK = 10067;
-    MSG_REP_ACCOUNT_CHECK = 10068;
-    MSG_REQ_ACCOUNT_TO_KEY = 10069;
-    MSG_REP_ACCOUNT_TO_KEY = 10070;
-    MSG_REQ_ACCOUNT_TO_PHONE = 10071;
-    MSG_REP_ACCOUNT_TO_PHONE = 10072;
+    REQ_PHONE_MAP_CHECK = 10055;
+    REP_PHONE_MAP_CHECK = 10056;
+    REQ_PHONE_MAP_SYNC = 10057;
+    REP_PHONE_MAP_SYNC = 10058;
+    REQ_PHONE_CHECK = 10059;
+    REP_PHONE_CHECK = 10060;
+    REQ_SYNC = 10061;
+    REP_SYNC = 10062;
 
 
-    MSG_REQ_KEY_ADD = 10073;
-    MSG_REP_KEY_ADD = 10074;
-    MSG_REQ_KEY_MODIFY = 10075;
-    MSG_REP_KEY_MODIFY = 10076;
-    MSG_REQ_KEY_DELETE = 10077;
-    MSG_REP_KEY_DELETE = 10078;
-    MSG_REQ_WELCOME_NOTIFICATION = 20001;
+    REQ_ACCOUNT_MAP_CHECK = 10063;
+    REP_ACCOUNT_MAP_CHECK = 10064;
+    REQ_ACCOUNT_MAP_SYNC = 10065;
+    REP_ACCOUNT_MAP_SYNC = 10066;
+    REQ_ACCOUNT_CHECK = 10067;
+    REP_ACCOUNT_CHECK = 10068;
+    REQ_ACCOUNT_TO_KEY = 10069;
+    REP_ACCOUNT_TO_KEY = 10070;
+    REQ_ACCOUNT_TO_PHONE = 10071;
+    REP_ACCOUNT_TO_PHONE = 10072;
+
+
+    REQ_KEY_ADD = 10073;
+    REP_KEY_ADD = 10074;
+    REQ_KEY_MODIFY = 10075;
+    REP_KEY_MODIFY = 10076;
+    REQ_KEY_DELETE = 10077;
+    REP_KEY_DELETE = 10078;
+    REQ_WELCOME_NOTIFICATION = 20001;
 }
 
 message Request
@@ -659,15 +662,15 @@ message Response
     optional AccountToPhoneResponse account_to_phone = 40;
     optional AccountToKeyResponse account_to_key = 41;
 }
-/* 所有的XxxxxNotification消息集合在一起当作联合体使用. */
-message Notification 
+/* 所有的XxxxxNotification消息集合在一起当作联合体使用. 
+message Notification
 {
     optional bytes welcome = 1;
 }
-
+*/
 /* 顶层消息，包含所有的Request，Response，Notification，具体包含哪个消息又 MSG msg_type字段决定，
 程序逻辑去保证msg_type和具体的消息进行匹配 */
-message Message 
+message Message
 {
     optional MSG msg_type = 1;
     /*
@@ -678,5 +681,24 @@ message Message
     optional fixed32 session_id = 3;
     optional Request request  = 4;
     optional Response response = 5;
-    optional Notification notification = 6;
+    //optional Notification notification = 6;
 }
+/*
+LoginRequest.id         max_size:16
+LoginRequest.k1         max_size:16
+LoginRequest.k0         max_size:16
+
+PhoneAddRequest.number			max_size:16
+PhoneAddModify.number			max_size:16
+KeyAddRequest.weekly			max_size:16
+KeyAddRequest.code				max_size:16
+KeyModifyRequest.weekly			max_size:16
+KeyModifyRequest.code			max_size:16
+AccountAddRequest.name			max_size:16
+AccountModifyRequest.name		max_size:16
+PasswordRequest.k0 				max_size:16
+AccountMapSyncRequest.map		max_size:512
+KeyMapSyncRequest.map			max_size:512
+PhoneMapSyncRequest.map			max_size:512
+LogMapSyncRequest.map			max_size:512
+*/
