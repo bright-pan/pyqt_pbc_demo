@@ -10,9 +10,6 @@ from google.protobuf.message import DecodeError
 import sdp_pb2
 import binascii
 
-dmsg = sdp_pb2.Message()
-msg_type_name_list = sdp_pb2.MSG.keys()
-msg_type_value_list = sdp_pb2.MSG.values()
 import ui_demo_main
 import ui_req_login, ui_rep_login
 import ui_req_logout, ui_rep_logout
@@ -47,6 +44,12 @@ import ui_req_phonemapsync, ui_rep_phonemapsync
 import ui_req_logcheck, ui_rep_logcheck
 import ui_req_logmapcheck, ui_rep_logmapcheck
 import ui_req_logmapsync, ui_rep_logmapsync
+
+name_list = []
+
+dmsg = sdp_pb2.Message()
+msg_type_name_list = sdp_pb2.MSG.keys()
+msg_type_value_list = sdp_pb2.MSG.values()
 
 class ReqLoginDialog(QDialog, ui_req_login.Ui_Dialog):
     def __init__(self, parent=None):
@@ -1367,12 +1370,13 @@ dlg_dict = {
 }
 
 
+
 class MyMainWindow(QMainWindow, ui_demo_main.Ui_MainWindow):
     def __init__(self, parent=None):
         super(MyMainWindow, self).__init__(parent)
         self.setupUi(self)
         self.comboBox.clear()
-        self.comboBox.insertItems(0, QStringList(msg_type_name_list))
+        self.comboBox.insertItems(0, QStringList(name_list))
         self.epushButton.clicked.connect(self.encode)
         self.dpushButton.clicked.connect(self.decode)
 
@@ -1415,6 +1419,18 @@ class MyMainWindow(QMainWindow, ui_demo_main.Ui_MainWindow):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
+    print len(dlg_dict.keys())
+
+    for i,v in enumerate(msg_type_name_list):
+        dlg = None
+        try:
+            dlg = dlg_dict.get(v, None)()
+        except TypeError:
+            name_list.append(v + u'/未实现')
+            continue
+        name_list.append(v + '/' + dlg.windowTitle())
+    print name_list
     mydlg = MyMainWindow()
     mydlg.show()
+
     sys.exit(app.exec_())

@@ -17,63 +17,83 @@
    <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>10</y>
-      <width>761</width>
+      <x>21</x>
+      <y>1</y>
+      <width>771</width>
       <height>581</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
-     <item>
-      <layout class="QGridLayout" name="gridLayout">
-       <item row="0" column="0" colspan="2">
-        <widget class="QComboBox" name="comboBox">
-         <item>
-          <property name="text">
-           <string>登录报文</string>
-          </property>
-         </item>
-        </widget>
-       </item>
-       <item row="0" column="2">
-        <widget class="QPushButton" name="epushButton">
-         <property name="text">
-          <string>编码</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0">
-        <widget class="QLineEdit" name="elineEdit">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <widget class="QCheckBox" name="echeckBox_2">
-         <property name="text">
-          <string>加解密</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="2">
-        <widget class="QPushButton" name="dpushButton">
-         <property name="text">
-          <string>解码</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>报文类型</string>
+       </property>
+      </widget>
      </item>
-     <item>
-      <layout class="QHBoxLayout" name="horizontalLayout">
+     <item row="0" column="1" colspan="2">
+      <widget class="QComboBox" name="comboBox">
        <item>
-        <widget class="QTextEdit" name="textEdit"/>
+        <property name="text">
+         <string>登录报文</string>
+        </property>
        </item>
-       <item>
-        <widget class="QTextEdit" name="textEdit_2"/>
-       </item>
-      </layout>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QPushButton" name="epushButton">
+       <property name="text">
+        <string>编码</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>报文密钥</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="elineEdit">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QCheckBox" name="echeckBox_2">
+       <property name="text">
+        <string>加解密</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QPushButton" name="dpushButton">
+       <property name="text">
+        <string>解码</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>明文区域</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1" colspan="3">
+      <widget class="QTextEdit" name="textEdit"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>密文区域</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1" colspan="3">
+      <widget class="QTextEdit" name="textEdit_2"/>
      </item>
     </layout>
    </widget>
